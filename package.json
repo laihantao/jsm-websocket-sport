@@ -10,7 +10,6 @@
     "db:migrate": "drizzle-kit migrate --config=./src/drizzle.config.js",
     "db:studio": "drizzle-kit studio --config=./src/drizzle.config.js",
     "demo": "node src/crud-demo.js"
-
   },
   "keywords": [],
   "author": "",
@@ -20,7 +19,8 @@
     "dotenv": "^17.2.4",
     "drizzle-orm": "^0.45.1",
     "express": "^5.2.1",
-    "pg": "^8.18.0"
+    "pg": "^8.18.0",
+    "zod": "^4.3.6"
   },
   "devDependencies": {
     "@types/pg": "^8.16.0",
